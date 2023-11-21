@@ -1,0 +1,28 @@
+// 通用弹窗样式
+.common-popup {
+  border-radius: 4px;
+
+  .el-dialog__header {
+    padding: 0 24px;
+    line-height: 54px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .el-dialog__title {
+    font-size: 16px;
+    color: #262626;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close {
+    color: #969696;
+  }
+
+  .el-dialog__body {
+    padding: 24px;
+  }
+
+  .el-dialog__footer {
+    padding: 10px 24px;
+    border-top: 1px solid #f0f0f0;
+  }
+}
